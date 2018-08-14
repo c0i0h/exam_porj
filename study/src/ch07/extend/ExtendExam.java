@@ -17,7 +17,7 @@ public class ExtendExam {
 		GrandChild2 gc2 = new GrandChild2();
 		
 		Other other = new Other();
-		System.out.println("- ExtendExam °´Ã¼´Â Other °´Ã¼¸¦ Æ÷ÇÔÇÑ´Ù");
+		System.out.println("- ExtendExam °´Ã¼´Â Other °´Ã¼¸¦ Æ÷ÇÔÇÑ´Ù.");
 		
 		//c1.printMe();
 		//c2.printMe();
