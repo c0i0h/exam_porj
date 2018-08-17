@@ -111,6 +111,7 @@ public class Polymorphism {
 		p1[0] = new Computer();
 		p1[1] = new Audio();
 		p1[2] = new Tablet();
+		
 	}
 	
 	public static void main(String[] args) {
@@ -150,13 +151,16 @@ class Product {
 
 
 class Computer extends Product {
-	
+	Computer() { super(200); }
+	public String toString() { return "Computer"; }
 }
 
 class Audio extends Product {
-	
+	Audio() { super(80); }
+	public String toString() { return "Audio"; }
 }
 
 class Tablet extends Product {
-	
+	Tablet() { super(60); }
+	public String toString() { return "Tablet"; }
 }
