@@ -23,6 +23,11 @@ public class ExtendExam {
 		//c2.printMe();
 		//gc.printMe();
 		//gc2.printMe();
+		
+		
+		Parent gc3 = new GrandChild2();
+		gc3.printMe();
+		
 	}
 
 }
@@ -42,13 +47,13 @@ class Child2 extends Parent {
 		System.out.println("- Child2 클래스는 age를 가지고 있지 않으나 Parent에게 상속받은 age=" +super.age);
 	}
 	
-	@Override
+	//@Override
 	void printMe() {
 		System.out.println("Child2 의 printMe() 메소드~");
 	}
 }
 
-class GrandChild extends Child {
+class GrandChild extends Child2 {
 	GrandChild() {
 		System.out.println("- GrandChild 클래스는 age를 가지고 있지 않으나 Parent에게 상속받은 age=" +super.age);
 		System.out.println("Child 클래스를 상속 받았지만 Child 클래스에는 직접적으로 age 멤버 변수가 없다.");
