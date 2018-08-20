@@ -102,15 +102,18 @@ public class Polymorphism {
 		t2.buy(tv);
 		System.out.println("변경후 채널:"+t2.channel);
 		
-		
+		System.out.println();
 		/*
 		 * 5.6 객체 배열 p370
 		 */
-		
 		Product[] p1 = new Product[3];
 		p1[0] = new Computer();
 		p1[1] = new Audio();
 		p1[2] = new Tablet();
+		
+		System.out.println(p1[0].toString());
+		System.out.println(p1[1].toString());
+		System.out.println(p1[2].toString());
 		
 	}
 	
