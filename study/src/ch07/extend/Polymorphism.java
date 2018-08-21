@@ -2,7 +2,6 @@ package ch07.extend;
 
 /*
  * 7.5 다형성(polymorphism)
- * 진행중~
  */
 public class Polymorphism {
 
