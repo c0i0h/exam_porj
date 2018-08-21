@@ -114,6 +114,8 @@ public class Polymorphism {
 		System.out.println(p1[1].toString());
 		System.out.println(p1[2].toString());
 		
+		p1[0].outprint();
+		
 	}
 	
 	public static void main(String[] args) {
@@ -148,6 +150,9 @@ class Product {
 	Product(int price) {
 		this.price = price;
 		this.bonusPoint = (int)(price/10.0);
+	}
+	void outprint() {
+		System.out.println("Product ¿‘¥œ¥Ÿ.");
 	}
 }
 
